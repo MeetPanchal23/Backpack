@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -27,11 +29,11 @@ const Footer = () => {
             <div className="col-12 col-sm-6 col-md-3 mb-4">
               <h5>INFORMATION</h5>
               <div className="d-flex flex-column">
-                <a href="/" className="text-white text-decoration-none mb-1">About Us</a>
-                <a href="/contact" className="text-white text-decoration-none mb-1">Store Location</a>
-                <a href="/contact" className="text-white text-decoration-none mb-1">Contact Us</a>
-                <a href="/shop" className="text-white text-decoration-none mb-1">Shipping & Delivery</a>
-                <a href="/blog" className="text-white text-decoration-none">Latest News</a>
+                <Link to="/" className="text-white text-decoration-none mb-1">About Us</Link>
+                <Link to="/contact" className="text-white text-decoration-none mb-1">Store Location</Link>
+                <Link to="/contact" className="text-white text-decoration-none mb-1">Contact Us</Link>
+                <Link to="/shop" className="text-white text-decoration-none mb-1">Shipping & Delivery</Link>
+                <Link to="/blog" className="text-white text-decoration-none">Latest News</Link>
               </div>
             </div>
 
@@ -39,11 +41,11 @@ const Footer = () => {
             <div className="col-12 col-sm-6 col-md-2 mb-4">
               <h5>OUR SERVICE</h5>
               <div className="d-flex flex-column">
-                <a href="/" className="text-white text-decoration-none mb-1">About Us</a>
-                <a href="/contact" className="text-white text-decoration-none mb-1">Store Location</a>
-                <a href="/contact" className="text-white text-decoration-none mb-1">Contact Us</a>
-                <a href="/shop" className="text-white text-decoration-none mb-1">Shipping & Delivery</a>
-                <a href="/blog" className="text-white text-decoration-none">Latest News</a>
+                <Link to="/" className="text-white text-decoration-none mb-1">About Us</Link>
+                <Link to="/contact" className="text-white text-decoration-none mb-1">Store Location</Link>
+                <Link to="/contact" className="text-white text-decoration-none mb-1">Contact Us</Link>
+                <Link to="/shop" className="text-white text-decoration-none mb-1">Shipping & Delivery</Link>
+                <Link to="/blog" className="text-white text-decoration-none">Latest News</Link>
               </div>
             </div>
 

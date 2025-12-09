@@ -61,7 +61,7 @@
 }
 /* second */
 .icon-side {
-  height: 80vh;
+  height: 95vh;
 }
 .icon-side i {
   color: #ff4545;
@@ -134,10 +134,6 @@
     height: auto;
     padding: 60px 0;
   }
-  .mobile-menu {
-    display: none !important;
-  }
-
   #main-content {
     height: auto;
     padding: 20px;

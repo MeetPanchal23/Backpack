@@ -85,8 +85,8 @@ const Contact = () => {
                     className="p-2 w-100"
                   ></textarea>
                 </div>
-                <button className="btn-outline" type="submit">
-                  SUBMIT
+                <button className="btn-outline">
+                  <Link to="/" className="text-decoration-none text-white">SUBMIT</Link>
                 </button>
               </form>
             </div>
